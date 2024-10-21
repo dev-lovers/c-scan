@@ -1,52 +1,55 @@
-# Prerequisites
-*.d
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
+# C extensions
 *.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Distribution / packaging
+.Python
+env/
+venv/
+.env/
+# Adicionando o ambiente virtual .venv
+.venv/
+env.bak/
+venv.bak/
+dist/
+build/
+*.egg-info/
+*.egg
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Pytest
+.cache
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.dmypy.json
+
+# Pylint
+pylint-report.txt
+pylint-output.txt
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+*.cov
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
