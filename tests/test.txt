@@ -1,7 +1,0 @@
-// Exemplo de soma em C
-int main() {
-    int a = 10;
-    int b = 20;
-    int resultado = a + b; // Soma
-    return resultado;
-}
