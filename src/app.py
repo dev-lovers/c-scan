@@ -2,7 +2,7 @@ from io import StringIO
 
 from flask import Flask, render_template, request
 
-from src.analyzer.lexer import Lexer, clean_code
+from .analyzer.lexer import Lexer, clean_code
 
 app = Flask(__name__, template_folder="web/templates")
 
@@ -42,7 +42,3 @@ def upload_file():
     result += "</ul>"
 
     return result
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
